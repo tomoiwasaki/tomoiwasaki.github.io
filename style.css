@@ -1,0 +1,142 @@
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff; /* NOT WORKING */
+}
+
+.navbar-nav li > a {
+  transition: background-color .2s, color .2s;
+  font-size: 12px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar .navbar-toggler:hover {
+  background-color: #1abc9c;
+  transition: background-color .2s, color .2s;
+}
+
+.rounded-circle {
+  height: 200px;
+  width: auto;
+}
+
+.container-fluid {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.container-fluid .btn {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.container-fluid .btn:hover {
+  background-color: white;
+  color: #1abc9c;
+  transition: background-color .2s, color .2s;
+}
+
+#experience {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#projects {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+/* color of dropdown titles */
+.span6 .title {
+  color: white;
+}
+
+.span6 a:hover {
+  color: #1abc9c;
+}
+
+.container-fluid ul {
+  text-align:center;
+  list-style-position: inside;
+}
+
+.container-fluid h1 {
+  font-size: 80px;
+  font-weight: 800; 
+}
+
+.container-fluid h2 {
+  font-size: 30px;
+  font-weight: 700; 
+}
+
+.container-fluid h5 {
+  font-style: italic;
+}
+
+.container-fluid p {
+  line-height: 200%;
+}
+
+#experience a,
+#experience a:hover,
+#projects a,
+#projects a:hover {
+  color: white;
+}
+
+#contact a,
+#contact a:hover {
+  color: #555555;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+  padding-top: 150px;
+}
+
+.bg-2 { 
+    background-color: #474e5d; /* Dark blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+  background-color: #009999;
+  color: #ffffff;
+}
+
+.bg-4 { 
+    background-color: #ffffff;
+    color: #555555;
+}
